@@ -4,12 +4,35 @@ Fenix Testing
 Overview
 --------
 
-We are testing all 3 channels but with small differences:
-- Bug verification/investigation done on all channels
-- Full-functional testing - done on Beta
-- Smoke & sanity testing - done on all channels
-- Features (creating test cases, bug verification, a11y) - done mostly on Nightly but we check also on Beta after the feature is landed
-- Exploratory testing - all channels
-- l10n - done on Beta
-- Bug triage - mostly on Nightly but depends of the issue, we check the exact steps provided by the user
 
+Description
+-----------
+
+**Nightly:**
+- Bug verification: issue that have qa-needed label
+- Feature testing
+    - Create test cases based on the documentation
+    - Execute the test cases created for the new implementation
+    - Verify bugs/issues when they are fixed
+    - Exploratory testing
+- Test a11y (TalkBack & scanner)
+- Bug triage 
+    - Investigating the issue 
+    - Put the labels related to functionality
+- Smoke and sanity testing
+- Exploratory testing
+    -More in-depth verification of fixed issues and/or when performing smoke and sanity
+
+**Beta:**
+- Full-functional testing 
+    - Duration: 2 days
+    - Frequency: upon Geckoview release or after Geckoview release, depending on the issues uplifted.
+    - Note: if > 10 issues uplifted, smoke testing done for upcoming Betas, and exploratory around fixed issues
+    - Accessibility testing: TalkBack
+- Smoke and sanity testing 
+- Bug verification
+
+**Release:**
+- Smoke and sanity testing
+- Bug verification
+- Exploratory testing around the fixed issues
