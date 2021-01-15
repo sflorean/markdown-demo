@@ -15,7 +15,6 @@ Description
     - Execute the test cases created for the new implementation
     - Verify bugs/issues when they are fixed
     - Exploratory testing
-- Test a11y (TalkBack & scanner)
 - Bug triage 
     - Investigating the issue 
     - Put the labels related to functionality
@@ -28,9 +27,9 @@ Description
     - Duration: 2 days
     - Frequency: upon Geckoview release or after Geckoview release, depending on the issues uplifted.
     - Note: if > 10 issues uplifted, smoke testing done for upcoming Betas, and exploratory around fixed issues
-    - Accessibility testing: TalkBack
 - Smoke and sanity testing 
 - Bug verification
+- Test a11y (TalkBack & scanner)
 
 **Release:**
 - Smoke and sanity testing
