@@ -43,7 +43,7 @@ Overview
 - Feature coverage: yes
 - Bug verification coverage: yes
 
-## Device defaults
+### Device defaults
 - Device coverage: (unless otherwise specified): Pixel, Samsung, Xiaomi, OnePlus, Huawei
   - Phone & tablets
   - Android version: all
